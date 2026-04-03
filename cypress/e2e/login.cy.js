@@ -1,7 +1,10 @@
 describe('Login', () => {
   beforeEach(() => {
     //Arrange
-    cy.visit('http://localhost:4000')
+    cy.env(['URL']).then(({ URL: url }) => {
+      expect(url, 'URL env var').to.be.a('string').and.not.be.empty
+      cy.visit(url)
+    })
     cy.screenshot('login-page')
   })
 
