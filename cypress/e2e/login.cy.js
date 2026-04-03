@@ -1,8 +1,10 @@
 describe('Login', () => {
-  it('Login with valid credentials must permit access', () => {
+  beforeEach(() => {
     //Arrange
     cy.visit('http://localhost:4000')
+  })
 
+  it('Login with valid credentials must permit access', () => {
     //Act
     cy.get('#username').click().type('luiz.neto')
     cy.get('#senha').click().type('123456')
@@ -11,10 +13,7 @@ describe('Login', () => {
     //Assert
     cy.contains('h4', 'Realizar Transferência').should('be.visible')
   })
-  it.only('Login with invalid credentials must show error message', () => {
-    //Arrange
-    cy.visit('http://localhost:4000')
-
+  it('Login with invalid credentials must show error message', () => {
     //Act
     cy.get('#username').click().type('luiz.neto')
     cy.get('#senha').click().type('12312312')
