@@ -2,12 +2,14 @@ describe('Login', () => {
   beforeEach(() => {
     //Arrange
     cy.visit('http://localhost:4000')
+    cy.screenshot('login-page')
   })
 
   it('Login with valid credentials must permit access', () => {
     //Act
     cy.get('#username').click().type('luiz.neto')
     cy.get('#senha').click().type('123456')
+    cy.screenshot('login-credentials')
     cy.contains('button', 'Entrar').click()
 
     //Assert
