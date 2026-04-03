@@ -1,10 +1,7 @@
 describe('Login', () => {
   beforeEach(() => {
     //Arrange
-    cy.env(['URL']).then(({ URL: url }) => {
-      expect(url, 'URL env var').to.be.a('string').and.not.be.empty
-      cy.visit(url)
-    })
+    cy.visit('/')
     cy.screenshot('login-page')
   })
 
@@ -31,4 +28,4 @@ describe('Login', () => {
     //Assert
     cy.get('.toast').should('be.visible').and('contain', 'Erro no login. Tente novamente.')
   })
-})    
+})

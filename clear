@@ -1,0 +1,86 @@
+[33mcommit fc0b5f1e64fcc952d291e6549e8fe68f43df9ba3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;31morigin/Adding-environment-variables[m[33m, [m[1;32mAdding-environment-variables[m[33m)[m
+Author: Luiz <luizitow@hotmail.com>
+Date:   Fri Apr 3 16:33:37 2026 -0400
+
+    Adding environment variables
+
+[33mcommit 9fd46f3735f7e2dcaf5bf6403680a0309ccbc965[m
+Merge: f3ecf40 b83ee4c
+Author: Luiz Neto <48572791+LRCCN@users.noreply.github.com>
+Date:   Fri Apr 3 15:44:46 2026 -0400
+
+    Merge pull request #5 from LRCCN/adding-fixtures
+    
+    Adding fixtures and .gitignore was modified
+
+[33mcommit b83ee4ca1ded621fbb315b84f7c05bb2ddd250bc[m[33m ([m[1;31morigin/adding-fixtures[m[33m, [m[1;32madding-fixtures[m[33m)[m
+Author: Luiz <luizitow@hotmail.com>
+Date:   Fri Apr 3 15:43:39 2026 -0400
+
+    Adding fixtures and .gitignore was modified
+
+[33mcommit f3ecf40eaedb9f326c75711a88b8966008716e53[m
+Merge: 779e606 bd8f75f
+Author: Luiz Neto <48572791+LRCCN@users.noreply.github.com>
+Date:   Fri Apr 3 13:41:06 2026 -0400
+
+    Merge pull request #4 from LRCCN/Adding-Screenshots
+    
+    Adding Screenshots
+
+[33mcommit bd8f75fb6429ba995ba992d2591649ca204ae380[m[33m ([m[1;31morigin/Adding-Screenshots[m[33m, [m[1;32mAdding-Screenshots[m[33m)[m
+Author: Luiz <luizitow@hotmail.com>
+Date:   Fri Apr 3 13:39:37 2026 -0400
+
+    Adding Screenshots
+
+[33mcommit 779e6069f7c132a558d7782edebb7eebf8e4048d[m
+Merge: 1e5d6a7 4639a3c
+Author: Luiz Neto <48572791+LRCCN@users.noreply.github.com>
+Date:   Fri Apr 3 13:24:12 2026 -0400
+
+    Merge pull request #3 from LRCCN/Adding-command-line-scripts
+    
+    Adding scripts for test execution on package.json
+
+[33mcommit 4639a3c9971cf1de3b7d975443115595ef4ee73e[m[33m ([m[1;31morigin/Adding-command-line-scripts[m[33m, [m[1;32mAdding-command-line-scripts[m[33m)[m
+Author: Luiz <luizitow@hotmail.com>
+Date:   Fri Apr 3 13:22:58 2026 -0400
+
+    Adding scripts for test execution on package.json
+
+[33mcommit 1e5d6a76c78e96eb00a09410b9eced304854da61[m
+Merge: 2906805 3af08df
+Author: Luiz Neto <48572791+LRCCN@users.noreply.github.com>
+Date:   Fri Apr 3 11:28:50 2026 -0400
+
+    Merge pull request #2 from LRCCN/Adding-before-each-on-login
+    
+    Adding before-each-for-login-page
+
+[33mcommit 3af08df55253b6c2aee82533e34bf5a9626b866c[m[33m ([m[1;31morigin/Adding-before-each-on-login[m[33m, [m[1;32mAdding-before-each-on-login[m[33m)[m
+Author: Luiz <luizitow@hotmail.com>
+Date:   Fri Apr 3 11:26:29 2026 -0400
+
+    Adding before-each-for-login-page
+
+[33mcommit 290680594ff50b1b4d1108ec1eebd03df73275d1[m
+Merge: 1a82064 42c6341
+Author: Luiz Neto <48572791+LRCCN@users.noreply.github.com>
+Date:   Tue Mar 31 22:53:12 2026 -0400
+
+    Merge pull request #1 from LRCCN/Adding-new-failed-login-test
+    
+    Adding a new test to validated the login with invalid credentials
+
+[33mcommit 42c63417998a3092e586ec36e5c249500b41ddfa[m[33m ([m[1;31morigin/Adding-new-failed-login-test[m[33m, [m[1;32mAdding-new-failed-login-test[m[33m)[m
+Author: Luiz <luizitow@hotmail.com>
+Date:   Tue Mar 31 22:51:33 2026 -0400
+
+    Adding a new test to validated the login with invalid credentials
+
+[33mcommit 1a8206404b9322e7aab3b29d6a5195185fdb9f0a[m
+Author: Luiz Neto <48572791+LRCCN@users.noreply.github.com>
+Date:   Mon Mar 30 21:54:54 2026 -0400
+
+    Initial commit
