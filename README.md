@@ -1,6 +1,6 @@
 # Cypress Web Test
 
-End-to-end test automation project for the Banco web application using Cypress and JavaScript.
+End-to-end test automation project for the Bank Web Application using Cypress and JavaScript.
 
 ## Project Goal
 
@@ -24,8 +24,8 @@ All dependencies are managed in `package.json`.
 
 To execute the tests successfully, the following applications must be running:
 
-1. Bank API: https://github.com/juliodelimas/banco-api
-2. Bank Web: https://github.com/juliodelimas/banco-web
+1. API Bank: https://github.com/juliodelimas/banco-api
+2. Web Bank: https://github.com/juliodelimas/banco-web
 
 Also ensure:
 
@@ -71,7 +71,7 @@ cd cypress-web-test
 npm install
 ```
 
-3. Confirm Banco API and Banco Web are both running.
+3. Confirm API Bank and Web Bank are both running.
 
 4. Verify target URL configured in `cypress.config.js`:
 
